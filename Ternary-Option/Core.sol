@@ -66,7 +66,7 @@ contract Core is ICore, CoreStorage, ReentrancyGuard, Ownable {
         require(
             round.totalLongAmount != 0 && round.totalShortAmount != 0 && round.totalTieAmount != 0,
             "only when there exists bets"
-        ); // check this
+        );
         round.status = 2;
         return true;
     }
@@ -78,7 +78,7 @@ contract Core is ICore, CoreStorage, ReentrancyGuard, Ownable {
         require(round.initTime + openDuration + lockupDuration <= block.timestamp, "only when time allowed");
         // determine result
         round.finalPrice = rate();
-        uint256 delta = round.initPrice / 10; // check this
+        uint256 delta = round.initPrice / 10;
         uint256 totalAmount = round.totalLongAmount + round.totalShortAmount + round.totalTieAmount;
         if (round.finalPrice > round.initPrice + delta) {
             // long win
