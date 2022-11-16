@@ -1,0 +1,7 @@
+name: Ternary Option Platform
+author: ["Verilog Solutions"]
+rpc_port: https://rpc-mainnet.matic.network
+flag: "PCTF{7ERnaRy OpTIoN p1atF0rM}"
+tags: ["pwn"]
+description: |
+  Decentralized Ternary Option Platform !!!!!!!
