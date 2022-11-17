@@ -60,5 +60,14 @@
   function claimBounty() external payable returns (bool);
   ```
 
+## Deployed Addresses
+
+| Contract Name | Address (using polygonscan)                |
+|---------------|--------------------------------------------|
+| Core Contract | 0x93FaC6E10658Eb3E5B0e95a8Eb916ebf47E61f2A |
+| LP Address    | 0x00F48D1D7613Bc16868bA999243Db98D48eCb2DB |
+| CTF-Token     | 0xE1DBD6aB3375bfaa5868cAa047e314ACB4eAB0b6 |
+| wMatic Token  | 0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270 |
+
 
 
